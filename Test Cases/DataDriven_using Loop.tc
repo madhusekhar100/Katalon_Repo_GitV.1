@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDriven_using Loop</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7033972a-a8c6-4687-9e14-e0caecfec930</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2c527b01-f3f0-49f5-8eed-1750bdf9f92e</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d4b03f1d-3c3d-424a-b4a6-12568355498d</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

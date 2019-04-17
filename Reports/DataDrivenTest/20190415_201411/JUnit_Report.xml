@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DataDrivenTest" time="43" tests="0" failures="0" errors="3">
+   <testsuite name="DataDrivenTest" tests="0" failures="0" errors="3" time="43" timestamp="2019-04-15 20:14:14" hostname="madhu.boya - QT-INBG-LT0552.QUALITEST.LOCAL" id="Test Suites/DataDrivenTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\madhu.boya\\Katalon Studio\\SalesForceLightning\\Reports\\DataDrivenTest\\20190415_201411"/>
+         <property name="logFiles" value="C:\\Users\\madhu.boya\\Katalon Studio\\SalesForceLightning\\Reports\\DataDrivenTest\\20190415_201411\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="madhu.boya - QT-INBG-LT0552.QUALITEST.LOCAL"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="10.20.12.101"/>
+         <property name="sessionId" value="8c338a4403fa955cc313a616e4f33d0f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DataDriven_Testcase01" classname="Test Cases/DataDriven_Testcase01" status="ERROR">
+         <error type="ERROR" message="Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-15 20:14:14 - [TEST_CASE][ERROR] - Test Cases/DataDriven_Testcase01: Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)
+
+
+2019-04-15 20:14:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-15 20:14:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-15 20:14:15 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-15 20:14:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-15 20:14:27 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-15 20:14:31 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-15 20:14:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-15 20:14:32 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-15 20:14:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MakeanOpp123"), 20): Object 'Object Repository/MakeanOpp123' is visible
+
+2019-04-15 20:14:32 - [MESSAGE][PASSED] - Object 'Object Repository/MakeanOpp123' is visible
+
+2019-04-15 20:14:32 - [TEST_STEP][PASSED] - click(findTestObject("MakeanOpp123")): Object: 'Object Repository/MakeanOpp123' is clicked on
+
+2019-04-15 20:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/MakeanOpp123' is clicked on
+
+2019-04-15 20:14:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/username"), 5): Object 'Object Repository/Page_CURA Healthcare Service/username' is present
+
+2019-04-15 20:14:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/username' is present
+
+2019-04-15 20:14:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/username"), "Username"): Keys 'Username' sent to object: 'Object Repository/Page_CURA Healthcare Service/username'
+
+2019-04-15 20:14:33 - [MESSAGE][PASSED] - Keys 'Username' sent to object: 'Object Repository/Page_CURA Healthcare Service/username'
+
+2019-04-15 20:14:33 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/pswd"), 5): Object 'Object Repository/Page_CURA Healthcare Service/pswd' is present
+
+2019-04-15 20:14:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/pswd' is present
+
+2019-04-15 20:14:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/pswd"), "password"): Keys 'password' sent to object: 'Object Repository/Page_CURA Healthcare Service/pswd'
+
+2019-04-15 20:14:33 - [MESSAGE][PASSED] - Keys 'password' sent to object: 'Object Repository/Page_CURA Healthcare Service/pswd'
+
+2019-04-15 20:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/Login_btn")): Object: 'Object Repository/Page_CURA Healthcare Service/Login_btn' is clicked on
+
+2019-04-15 20:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Login_btn' is clicked on
+
+2019-04-15 20:14:34 - [TEST_STEP][PASSED] - driver = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-15 20:14:34 - [TEST_STEP][ERROR] - driver.get(""): driver.get("") FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)
+
+
+2019-04-15 20:14:34 - [MESSAGE][ERROR] - driver.get("") FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-15 20:14:14 - [TEST_CASE][ERROR] - Test Cases/DataDriven_Testcase01: Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDriven_Testcase01" classname="Test Cases/DataDriven_Testcase01" status="ERROR">
+         <error type="ERROR" message="Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-15 20:14:34 - [TEST_CASE][ERROR] - Test Cases/DataDriven_Testcase01: Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)
+
+
+2019-04-15 20:14:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-15 20:14:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-15 20:14:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-15 20:14:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-15 20:14:39 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-15 20:14:43 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-15 20:14:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-15 20:14:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-15 20:14:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MakeanOpp123"), 20): Object 'Object Repository/MakeanOpp123' is visible
+
+2019-04-15 20:14:44 - [MESSAGE][PASSED] - Object 'Object Repository/MakeanOpp123' is visible
+
+2019-04-15 20:14:44 - [TEST_STEP][PASSED] - click(findTestObject("MakeanOpp123")): Object: 'Object Repository/MakeanOpp123' is clicked on
+
+2019-04-15 20:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/MakeanOpp123' is clicked on
+
+2019-04-15 20:14:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/username"), 5): Object 'Object Repository/Page_CURA Healthcare Service/username' is present
+
+2019-04-15 20:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/username' is present
+
+2019-04-15 20:14:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/username"), "Username"): Keys 'Username' sent to object: 'Object Repository/Page_CURA Healthcare Service/username'
+
+2019-04-15 20:14:45 - [MESSAGE][PASSED] - Keys 'Username' sent to object: 'Object Repository/Page_CURA Healthcare Service/username'
+
+2019-04-15 20:14:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/pswd"), 5): Object 'Object Repository/Page_CURA Healthcare Service/pswd' is present
+
+2019-04-15 20:14:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/pswd' is present
+
+2019-04-15 20:14:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/pswd"), "password"): Keys 'password' sent to object: 'Object Repository/Page_CURA Healthcare Service/pswd'
+
+2019-04-15 20:14:45 - [MESSAGE][PASSED] - Keys 'password' sent to object: 'Object Repository/Page_CURA Healthcare Service/pswd'
+
+2019-04-15 20:14:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/Login_btn")): Object: 'Object Repository/Page_CURA Healthcare Service/Login_btn' is clicked on
+
+2019-04-15 20:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Login_btn' is clicked on
+
+2019-04-15 20:14:46 - [TEST_STEP][PASSED] - driver = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-15 20:14:46 - [TEST_STEP][ERROR] - driver.get(""): driver.get("") FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)
+
+
+2019-04-15 20:14:46 - [MESSAGE][ERROR] - driver.get("") FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-15 20:14:34 - [TEST_CASE][ERROR] - Test Cases/DataDriven_Testcase01: Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDriven_Testcase01" classname="Test Cases/DataDriven_Testcase01" status="ERROR">
+         <error type="ERROR" message="Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-15 20:14:46 - [TEST_CASE][ERROR] - Test Cases/DataDriven_Testcase01: Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)
+
+
+2019-04-15 20:14:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-15 20:14:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-15 20:14:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-15 20:14:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-15 20:14:51 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-15 20:14:54 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-04-15 20:14:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-15 20:14:55 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-15 20:14:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("MakeanOpp123"), 20): Object 'Object Repository/MakeanOpp123' is visible
+
+2019-04-15 20:14:55 - [MESSAGE][PASSED] - Object 'Object Repository/MakeanOpp123' is visible
+
+2019-04-15 20:14:55 - [TEST_STEP][PASSED] - click(findTestObject("MakeanOpp123")): Object: 'Object Repository/MakeanOpp123' is clicked on
+
+2019-04-15 20:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/MakeanOpp123' is clicked on
+
+2019-04-15 20:14:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/username"), 5): Object 'Object Repository/Page_CURA Healthcare Service/username' is present
+
+2019-04-15 20:14:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/username' is present
+
+2019-04-15 20:14:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/username"), "Username"): Keys 'Username' sent to object: 'Object Repository/Page_CURA Healthcare Service/username'
+
+2019-04-15 20:14:56 - [MESSAGE][PASSED] - Keys 'Username' sent to object: 'Object Repository/Page_CURA Healthcare Service/username'
+
+2019-04-15 20:14:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/pswd"), 5): Object 'Object Repository/Page_CURA Healthcare Service/pswd' is present
+
+2019-04-15 20:14:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/pswd' is present
+
+2019-04-15 20:14:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_CURA Healthcare Service/pswd"), "password"): Keys 'password' sent to object: 'Object Repository/Page_CURA Healthcare Service/pswd'
+
+2019-04-15 20:14:56 - [MESSAGE][PASSED] - Keys 'password' sent to object: 'Object Repository/Page_CURA Healthcare Service/pswd'
+
+2019-04-15 20:14:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/Login_btn")): Object: 'Object Repository/Page_CURA Healthcare Service/Login_btn' is clicked on
+
+2019-04-15 20:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/Login_btn' is clicked on
+
+2019-04-15 20:14:57 - [TEST_STEP][PASSED] - driver = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-04-15 20:14:57 - [TEST_STEP][ERROR] - driver.get(""): driver.get("") FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)
+
+
+2019-04-15 20:14:57 - [MESSAGE][ERROR] - driver.get("") FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-15 20:14:46 - [TEST_CASE][ERROR] - Test Cases/DataDriven_Testcase01: Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-15 20:14:14 - [TEST_SUITE][ERROR] - DataDrivenTest: Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-15 20:14:14 - [TEST_SUITE][ERROR] - DataDrivenTest: Test Cases/DataDriven_Testcase01 FAILED.
+Reason:
+java.lang.NullPointerException: Cannot invoke method get() on null object
+	at DataDriven_Testcase01.run(DataDriven_Testcase01:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:342)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:333)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:312)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:304)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:238)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555339451264.run(TempTestSuite1555339451264.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

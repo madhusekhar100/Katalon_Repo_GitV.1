@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DataDrivenTest,Chrome 73.0.3683.103,,2019-04-15 20:14:14,2019-04-15 20:14:58,43.969s,ERROR
+,,,,,,
+Test Cases/DataDriven_Testcase01,Chrome 73.0.3683.103,,2019-04-15 20:14:14,2019-04-15 20:14:34,19.879s,ERROR
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-15 20:14:15,2019-04-15 20:14:27,12.437s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 73.0.3683.103,,2019-04-15 20:14:27,2019-04-15 20:14:31,3.494s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-15 20:14:31,2019-04-15 20:14:32,1.188s,PASSED
+"waitForElementVisible(findTestObject(""MakeanOpp123""), 20)",Chrome 73.0.3683.103,,2019-04-15 20:14:32,2019-04-15 20:14:32,0.241s,PASSED
+"click(findTestObject(""MakeanOpp123""))",Chrome 73.0.3683.103,,2019-04-15 20:14:32,2019-04-15 20:14:33,0.612s,PASSED
+"waitForElementPresent(findTestObject(""Page_CURA Healthcare Service/username""), 5)",Chrome 73.0.3683.103,,2019-04-15 20:14:33,2019-04-15 20:14:33,0.032s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/username""), ""Username"")",Chrome 73.0.3683.103,,2019-04-15 20:14:33,2019-04-15 20:14:33,0.138s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/pswd""), 5)",Chrome 73.0.3683.103,,2019-04-15 20:14:33,2019-04-15 20:14:33,0.031s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/pswd""), ""password"")",Chrome 73.0.3683.103,,2019-04-15 20:14:33,2019-04-15 20:14:33,0.084s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/Login_btn""))",Chrome 73.0.3683.103,,2019-04-15 20:14:33,2019-04-15 20:14:34,0.840s,PASSED
+driver = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 73.0.3683.103,,2019-04-15 20:14:34,2019-04-15 20:14:34,0.004s,PASSED
+"driver.get("""")",Chrome 73.0.3683.103,,2019-04-15 20:14:34,2019-04-15 20:14:34,0.048s,ERROR
+,,,,,,
+Test Cases/DataDriven_Testcase01,Chrome 73.0.3683.103,,2019-04-15 20:14:34,2019-04-15 20:14:46,11.614s,ERROR
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-15 20:14:34,2019-04-15 20:14:39,5.180s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 73.0.3683.103,,2019-04-15 20:14:39,2019-04-15 20:14:43,3.599s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-15 20:14:43,2019-04-15 20:14:44,1.172s,PASSED
+"waitForElementVisible(findTestObject(""MakeanOpp123""), 20)",Chrome 73.0.3683.103,,2019-04-15 20:14:44,2019-04-15 20:14:44,0.085s,PASSED
+"click(findTestObject(""MakeanOpp123""))",Chrome 73.0.3683.103,,2019-04-15 20:14:44,2019-04-15 20:14:45,0.516s,PASSED
+"waitForElementPresent(findTestObject(""Page_CURA Healthcare Service/username""), 5)",Chrome 73.0.3683.103,,2019-04-15 20:14:45,2019-04-15 20:14:45,0.025s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/username""), ""Username"")",Chrome 73.0.3683.103,,2019-04-15 20:14:45,2019-04-15 20:14:45,0.089s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/pswd""), 5)",Chrome 73.0.3683.103,,2019-04-15 20:14:45,2019-04-15 20:14:45,0.025s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/pswd""), ""password"")",Chrome 73.0.3683.103,,2019-04-15 20:14:45,2019-04-15 20:14:45,0.102s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/Login_btn""))",Chrome 73.0.3683.103,,2019-04-15 20:14:45,2019-04-15 20:14:46,0.741s,PASSED
+driver = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 73.0.3683.103,,2019-04-15 20:14:46,2019-04-15 20:14:46,0.001s,PASSED
+"driver.get("""")",Chrome 73.0.3683.103,,2019-04-15 20:14:46,2019-04-15 20:14:46,0.004s,ERROR
+,,,,,,
+Test Cases/DataDriven_Testcase01,Chrome 73.0.3683.103,,2019-04-15 20:14:46,2019-04-15 20:14:57,10.914s,ERROR
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-15 20:14:46,2019-04-15 20:14:51,5.093s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 73.0.3683.103,,2019-04-15 20:14:51,2019-04-15 20:14:54,3.034s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-15 20:14:54,2019-04-15 20:14:55,1.154s,PASSED
+"waitForElementVisible(findTestObject(""MakeanOpp123""), 20)",Chrome 73.0.3683.103,,2019-04-15 20:14:55,2019-04-15 20:14:55,0.074s,PASSED
+"click(findTestObject(""MakeanOpp123""))",Chrome 73.0.3683.103,,2019-04-15 20:14:55,2019-04-15 20:14:56,0.539s,PASSED
+"waitForElementPresent(findTestObject(""Page_CURA Healthcare Service/username""), 5)",Chrome 73.0.3683.103,,2019-04-15 20:14:56,2019-04-15 20:14:56,0.022s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/username""), ""Username"")",Chrome 73.0.3683.103,,2019-04-15 20:14:56,2019-04-15 20:14:56,0.082s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/pswd""), 5)",Chrome 73.0.3683.103,,2019-04-15 20:14:56,2019-04-15 20:14:56,0.026s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/pswd""), ""password"")",Chrome 73.0.3683.103,,2019-04-15 20:14:56,2019-04-15 20:14:56,0.176s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/Login_btn""))",Chrome 73.0.3683.103,,2019-04-15 20:14:56,2019-04-15 20:14:57,0.675s,PASSED
+driver = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 73.0.3683.103,,2019-04-15 20:14:57,2019-04-15 20:14:57,0.001s,PASSED
+"driver.get("""")",Chrome 73.0.3683.103,,2019-04-15 20:14:57,2019-04-15 20:14:57,0.002s,ERROR

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sprint01_testsuite01,Chrome 73.0.3683.103,,2019-04-15 14:52:43,2019-04-15 14:53:08,25.521s,FAILED
+,,,,,,
+Test Cases/Login_Portal,Chrome 73.0.3683.103,,2019-04-15 14:52:43,2019-04-15 14:53:03,19.931s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-15 14:52:44,2019-04-15 14:52:51,7.136s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 73.0.3683.103,,2019-04-15 14:52:51,2019-04-15 14:53:00,9.830s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-15 14:53:00,2019-04-15 14:53:02,1.172s,PASSED
+"waitForElementVisible(findTestObject(""MakeanOpp123""), 20)",Chrome 73.0.3683.103,,2019-04-15 14:53:02,2019-04-15 14:53:02,0.134s,PASSED
+"click(findTestObject(""MakeanOpp123""))",Chrome 73.0.3683.103,,2019-04-15 14:53:02,2019-04-15 14:53:03,1.258s,PASSED
+,,,,,,
+Test Cases/Login as Admin,Chrome 73.0.3683.103,,2019-04-15 14:53:03,2019-04-15 14:53:06,2.989s,PASSED
+"waitForElementPresent(findTestObject(""Page_CURA Healthcare Service/username""), 5)",Chrome 73.0.3683.103,,2019-04-15 14:53:03,2019-04-15 14:53:03,0.055s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/username""), findTestData(""21cv/21cvtestdata"").getValue(1, 1))",Chrome 73.0.3683.103,,2019-04-15 14:53:03,2019-04-15 14:53:05,1.422s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/pswd""), 5)",Chrome 73.0.3683.103,,2019-04-15 14:53:05,2019-04-15 14:53:05,0.026s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/pswd""), findTestData(""21cv/21cvtestdata"").getValue(2, 1))",Chrome 73.0.3683.103,,2019-04-15 14:53:05,2019-04-15 14:53:05,0.190s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/Login_btn""))",Chrome 73.0.3683.103,,2019-04-15 14:53:05,2019-04-15 14:53:06,0.954s,PASSED
+,,,,,,
+Test Cases/Booking Appoinment,Chrome 73.0.3683.103,,2019-04-15 14:53:06,2019-04-15 14:53:07,1.198s,FAILED
+acceptAlert(),Chrome 73.0.3683.103,,2019-04-15 14:53:06,2019-04-15 14:53:07,0.855s,FAILED

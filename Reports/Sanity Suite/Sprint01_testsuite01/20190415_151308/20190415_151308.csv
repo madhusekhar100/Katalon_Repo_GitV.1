@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Sprint01_testsuite01,Chrome 73.0.3683.103,,2019-04-15 15:13:15,2019-04-15 15:13:31,16.678s,PASSED
+,,,,,,
+Test Cases/Login_Portal,Chrome 73.0.3683.103,,2019-04-15 15:13:15,2019-04-15 15:13:24,9.248s,PASSED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-15 15:13:15,2019-04-15 15:13:19,3.865s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 73.0.3683.103,,2019-04-15 15:13:19,2019-04-15 15:13:23,3.293s,PASSED
+maximizeWindow(),Chrome 73.0.3683.103,,2019-04-15 15:13:23,2019-04-15 15:13:24,1.152s,PASSED
+"waitForElementVisible(findTestObject(""MakeanOpp123""), 20)",Chrome 73.0.3683.103,,2019-04-15 15:13:24,2019-04-15 15:13:24,0.071s,PASSED
+"click(findTestObject(""MakeanOpp123""))",Chrome 73.0.3683.103,,2019-04-15 15:13:24,2019-04-15 15:13:24,0.485s,PASSED
+,,,,,,
+Test Cases/Login as Admin,Chrome 73.0.3683.103,,2019-04-15 15:13:24,2019-04-15 15:13:26,1.907s,PASSED
+"waitForElementPresent(findTestObject(""Page_CURA Healthcare Service/username""), 5)",Chrome 73.0.3683.103,,2019-04-15 15:13:24,2019-04-15 15:13:25,0.036s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/username""), findTestData(""21cv/21cvtestdata"").getValue(1, 1))",Chrome 73.0.3683.103,,2019-04-15 15:13:25,2019-04-15 15:13:25,0.806s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/pswd""), 5)",Chrome 73.0.3683.103,,2019-04-15 15:13:25,2019-04-15 15:13:25,0.030s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_CURA Healthcare Service/pswd""), findTestData(""21cv/21cvtestdata"").getValue(2, 1))",Chrome 73.0.3683.103,,2019-04-15 15:13:25,2019-04-15 15:13:25,0.141s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/Login_btn""))",Chrome 73.0.3683.103,,2019-04-15 15:13:25,2019-04-15 15:13:26,0.664s,PASSED
+,,,,,,
+Test Cases/Booking Appoinment,Chrome 73.0.3683.103,,2019-04-15 15:13:26,2019-04-15 15:13:30,4.232s,PASSED
+"waitForElementPresent(findTestObject(""Make an appoinment/Checkbox""), 10)",Chrome 73.0.3683.103,,2019-04-15 15:13:26,2019-04-15 15:13:26,0.024s,PASSED
+"click(findTestObject(""Make an appoinment/Checkbox""))",Chrome 73.0.3683.103,,2019-04-15 15:13:26,2019-04-15 15:13:26,0.064s,PASSED
+"setText(findTestObject(""Object Repository/Make an appoinment/Comment textbox""), ""Confirmed booking on sunday"")",Chrome 73.0.3683.103,,2019-04-15 15:13:26,2019-04-15 15:13:27,0.231s,PASSED
+"click(findTestObject(""Object Repository/Make an appoinment/Calander Icon""))",Chrome 73.0.3683.103,,2019-04-15 15:13:27,2019-04-15 15:13:27,0.156s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Make an appoinment/DateSelector""), 10)",Chrome 73.0.3683.103,,2019-04-15 15:13:27,2019-04-15 15:13:27,0.041s,PASSED
+"click(findTestObject(""Object Repository/Make an appoinment/DateSelector""))",Chrome 73.0.3683.103,,2019-04-15 15:13:27,2019-04-15 15:13:27,0.078s,PASSED
+delay(3),Chrome 73.0.3683.103,,2019-04-15 15:13:27,2019-04-15 15:13:30,3.026s,PASSED
+"click(findTestObject(""Object Repository/Make an appoinment/Booking""))",Chrome 73.0.3683.103,,2019-04-15 15:13:30,2019-04-15 15:13:30,0.417s,PASSED
